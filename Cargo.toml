@@ -1,0 +1,14 @@
+[package]
+name = "alac-sys"
+version = "0.1.0"
+authors = ["evpobr <evpobr@gmail.com>"]
+description = "Rust bindings for ALAC."
+license = "Apache-2.0"
+repository = "https://github.com/evpobr/alac-sys"
+categories = ["external-ffi-bindings", "multimedia::audio", "multimedia::encoding"]
+edition = "2018"
+build = "vendor/build.rs"
+links = "alac"
+
+[build-dependencies]
+cc = "1.0"
